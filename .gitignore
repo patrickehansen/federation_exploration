@@ -1,0 +1,7 @@
+**/node_modules/
+**/client/
+**/router/
+**/final/
+.DS_Store
+**/.env
+client/src/index.js

@@ -1,0 +1,23 @@
+{
+  "name": "location-reviews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon . -e js,graphql",
+    "publish:local": "rover subgraph publish flyby-6r4cy3@current --name locations --schema ./subgraph-locations/locations.graphql --routing-url http://localhost:4001"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "npm": ">=6.0.0",
+    "node": ">=14.0.0 <17"
+  },
+  "dependencies": {
+    "@apollo/subgraph": "^2.1.4",
+    "apollo-server": "^3.9.0",
+    "graphql": "^16.5.0",
+    "nodemon": "^2.0.13"
+  }
+}
